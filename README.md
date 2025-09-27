@@ -1,5 +1,9 @@
 # Banking Analytics & ML Project
 
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-dashboard-green)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+
 ## Project Overview
 This project simulates a **real-world banking system** with Customers, Accounts, Transactions, Loans, and CreditCards.  
 It demonstrates **full-stack Data Engineering, Data Science, and Dashboarding skills**, including:
