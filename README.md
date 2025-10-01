@@ -61,15 +61,11 @@ It demonstrates **full-stack Data Engineering, Data Science, and Dashboarding sk
 ## Project Structure
 ```
 banking-project/
-├── data/               # Cleaned CSVs ready for analysis
-├── raw_data/           # Optional: original CSVs
-├── sql/
-│   └── banking.sql     # Schema + queries
+
+│-── banking.sql     # Schema + queries
 ├── pipeline.ipynb      # ETL / data cleaning
+├── populate.ipynb      # generate synthetic data
 ├── analysis.ipynb      # EDA + visualizations
-├── ml.ipynb            # ML models: loan prediction, segmentation, fraud
-├── dashboard/          # Streamlit / Plotly dashboard (optional)
-├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
 ```
 
@@ -103,16 +99,6 @@ jupyter notebook pipeline.ipynb
 jupyter notebook analysis.ipynb
 ```
 
-6. **Run ML models**
-```bash
-jupyter notebook ml.ipynb
-```
-
-7. **Optional:** Launch dashboard
-```bash
-streamlit run dashboard/app.py
-```
-
 ---
 
 ## 📊 Visualizations
@@ -126,8 +112,6 @@ streamlit run dashboard/app.py
 ### Transaction Type
 ![Transaction type](images/transaction_type_piechart.png)
 
-### Fraud Detection Distribution
-![Fraud detection](images/fraud_distribution.png)
 
 ---
 
