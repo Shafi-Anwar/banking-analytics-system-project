@@ -1,7 +1,7 @@
-# Banking Analytics & ML Project
+# Banking Analytics 
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
-![Streamlit](https://img.shields.io/badge/streamlit-dashboard-green)
+
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Project Overview
@@ -11,17 +11,13 @@ It demonstrates **full-stack Data Engineering, Data Science, and Dashboarding sk
 - Building a **relational database** (MySQL)
 - Designing **data pipelines** for cleaning and aggregation
 - Performing **EDA and visual analytics**
-- Building **ML models** for loan prediction, customer segmentation, and fraud detection
-- Creating **interactive dashboards** (Streamlit + Plotly)
 
 ---
 
 ## 📂 Tech Stack
 - **Database / ETL:** MySQL, Pandas, SQLAlchemy  
 - **Data Analysis / Visualization:** Python, Pandas, Matplotlib, Seaborn  
-- **Machine Learning:** Scikit-learn  
 - **Synthetic Data Generation:** Faker  
-- **Dashboarding:** Streamlit, Plotly
 
 ---
 
@@ -41,12 +37,6 @@ It demonstrates **full-stack Data Engineering, Data Science, and Dashboarding sk
   - Transaction trends and types
   - Multi-table KPIs (balance vs loans vs credit usage)
 
-### Machine Learning (ML)
-- **Loan Default Prediction** → Predict Approved/Rejected loans
-- **Customer Segmentation** → Cluster customers by financial profile
-- **Transaction Fraud Detection** → Flag anomalous transactions
-
----
 
 ## Example Insights
 - Most customers are **25–45 years old**
